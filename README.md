@@ -38,9 +38,5 @@ NIM_NamaLengkap
 6. Buat file **README.md** yang berisi panduan lengkap hingga aplikasi dapat dijalankan dan melakukan operasi **CRUD** menggunakan database.
 7. Sertakan prompt AI yang digunakan pada bagian akhir README.md.
 8. Lakukan commit secara berkala (minimal **10 commit**).
-9. Buat branch dengan format:
-```
-feature-NIM
-```
-10. Push branch ke repository dan buat **Pull Request** ke branch `main`.
-11. Pengumpulan dianggap selesai setelah **Pull Request** berhasil dibuat sebelum batas waktu yang ditentukan.
+9. Push branch ke repository dan buat **Pull Request** ke branch `main`.
+10. Pengumpulan dianggap selesai setelah **Pull Request** berhasil dibuat sebelum batas waktu yang ditentukan.
