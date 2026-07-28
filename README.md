@@ -1,9 +1,9 @@
 # UK_Pemrograman
 Soal untuk Ujian Khusus Mahasiswa Pemrograman 1
 
-# 💻 Tugas Besar Pemrograman Website
+# 💻 Ujian Khusus Praktikum Pemrograman Website
 ## Deskripsi
-Tugas Besar ini bertujuan untuk mengimplementasikan konsep **Model-View-Controller (MVC)** dalam pengembangan aplikasi web menggunakan **PHP Native**.
+Ujian Khusus Praktikum ini bertujuan untuk mengimplementasikan konsep **Model-View-Controller (MVC)** dalam pengembangan aplikasi web menggunakan **PHP Native**.
 Setiap mahasiswa wajib memilih **salah satu** studi kasus di bawah ini, kemudian mengembangkan aplikasi menggunakan arsitektur MVC.
 
 # 📋 Pilihan Soal
@@ -183,19 +183,15 @@ Add Search Feature
 Improve UI
 Update README
 ```
-
 8. Push branch ke repository.
-
 9. Buat Pull Request menuju branch **main**.
-
 Format judul Pull Request
 
 ```
-[NIM] Nama Mahasiswa - Tugas Besar MVC
+[NIM] Nama Mahasiswa - Ujian Khusus Praktikum MVC
 ```
 
 10. Deskripsi Pull Request minimal berisi
-
 - Nama
 - NIM
 - Judul Aplikasi
@@ -206,9 +202,7 @@ Format judul Pull Request
 ---
 
 # 📄 README.md pada Folder Project
-
 Setiap mahasiswa wajib membuat README.md yang berisi
-
 - Nama
 - NIM
 - Kelas
@@ -222,11 +216,9 @@ Setiap mahasiswa wajib membuat README.md yang berisi
 - Screenshot Database
 - Teknologi yang digunakan
 - Link Deploy (jika ada)
-
 ---
 
 # 📊 Kriteria Penilaian
-
 | Aspek | Bobot |
 |-------|------:|
 | Implementasi MVC | 25% |
@@ -239,7 +231,6 @@ Setiap mahasiswa wajib membuat README.md yang berisi
 ---
 
 # ⚠️ Ketentuan Tambahan
-
 - Wajib menggunakan konsep MVC.
 - Dilarang menggunakan framework PHP seperti Laravel atau CodeIgniter.
 - Dilarang melakukan push langsung ke branch `main`.
@@ -247,5 +238,3 @@ Setiap mahasiswa wajib membuat README.md yang berisi
 - Source code harus dapat dijalankan tanpa error.
 - Setiap mahasiswa bertanggung jawab atas keaslian hasil pekerjaannya.
 ````
-
-Menurut saya, dua studi kasus tersebut lebih tepat untuk pembelajaran MVC karena melibatkan **relasi data, CRUD, routing, controller, model, dan view**. Selain itu, keduanya mudah dikembangkan lebih lanjut pada pertemuan berikutnya (misalnya menambahkan autentikasi, pagination, upload gambar, atau laporan PDF) tanpa mengubah struktur dasar aplikasi.
