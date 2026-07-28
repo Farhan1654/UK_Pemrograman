@@ -166,7 +166,7 @@ Halaman utama aplikasi CRUD Buku setelah berhasil dijalankan menggunakan Laravel
 
 Halaman ini menampilkan seluruh data buku yang tersimpan pada database. Pengguna dapat menambah, mengubah, maupun menghapus data buku.
 
-![Daftar Buku](docs/screenshots/daftar Buku.png)
+![Daftar Buku](docs/screenshots/daftarBuku.png)
 
 ---
 
@@ -174,7 +174,7 @@ Halaman ini menampilkan seluruh data buku yang tersimpan pada database. Pengguna
 
 Halaman ini digunakan untuk menambahkan data buku baru ke dalam database.
 
-![Form Tambah Buku](docs/screenshots/Form Tambah Buku.png)
+![Form Tambah Buku](docs/screenshots/FormTambahBuku.png)
 
 ---
 
@@ -182,7 +182,7 @@ Halaman ini digunakan untuk menambahkan data buku baru ke dalam database.
 
 Halaman ini digunakan untuk memperbarui data buku yang telah tersimpan.
 
-![Edit Buku](docs/screenshots/Edit Buku.png)
+![Edit Buku](docs/screenshots/EditBuku.png)
 
 ---
 
@@ -190,7 +190,7 @@ Halaman ini digunakan untuk memperbarui data buku yang telah tersimpan.
 
 Sebelum data dihapus, sistem menampilkan dialog konfirmasi agar pengguna tidak menghapus data secara tidak sengaja.
 
-![Alert Hapus Buku](docs/screenshots/Alert Hapus Buku.png)
+![Alert Hapus Buku](docs/screenshots/AlertHapusBuku.png)
 
 ---
 
