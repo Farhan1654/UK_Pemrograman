@@ -1,42 +1,182 @@
-# UK_Pemrograman
-Soal untuk Ujian Khusus Mahasiswa Pemrograman 1
+# 📚 Sistem CRUD Buku Laravel
 
-# 💻 Ujian Khusus Pemrograman Website
-## Modul Praktikum Berbasis AI
-## Deskripsi Tugas
-Setiap mahasiswa **wajib membuat satu modul praktikum** yang menjelaskan langkah-langkah pembuatan aplikasi web menggunakan bantuan **Artificial Intelligence (AI)** (ChatGPT, GitHub Copilot, Gemini, Claude, atau AI Assistant lainnya).
-Aplikasi dikembangkan menggunakan **Laravel** atau **CodeIgniter 4** dengan menerapkan konsep **Model-View-Controller (MVC)**.
+## Deskripsi Project
 
----
+Project ini merupakan aplikasi **CRUD (Create, Read, Update, Delete)** sederhana yang dibangun menggunakan **Laravel** dengan menerapkan konsep **Model-View-Controller (MVC)**.
 
-## Ketentuan Tugas
-Modul praktikum harus memandu pembaca mulai dari:
-- Instalasi framework.
-- Konfigurasi project.
-- Konfigurasi database.
-- Pembuatan Migration.
-- Pembuatan Model.
-- Pembuatan Controller.
-- Pembuatan View.
-- Routing.
-- Implementasi CRUD (Create, Read, Update, Delete).
-- Pengujian aplikasi hingga berhasil terhubung ke database.
-
-Seluruh langkah harus dijelaskan secara runtut disertai screenshot seperlunya.
+Project ini dibuat sebagai tugas **Ujian Khusus Pemrograman Website** dengan memanfaatkan **Artificial Intelligence (AI)** sebagai asisten dalam proses pengembangan aplikasi.
 
 ---
 
-## Petunjuk Pengerjaan
-1. Tugas dikerjakan **secara individu**.
-2. Pilih **Laravel** atau **CodeIgniter 4**.
-3. Gunakan AI sebagai asisten dalam proses pengembangan aplikasi.
-4. Buat folder project dengan format:
+# Fitur Aplikasi
+
+Aplikasi memiliki fitur sebagai berikut:
+
+- ✅ Menampilkan daftar buku
+- ✅ Menambahkan data buku
+- ✅ Mengubah data buku
+- ✅ Menghapus data buku
+- ✅ Validasi input
+- ✅ Menggunakan Bootstrap untuk antarmuka
+- ✅ Menggunakan MySQL sebagai database
+
+---
+
+# Teknologi yang Digunakan
+
+- Laravel
+- PHP 8.2
+- MySQL
+- Bootstrap 5
+- Composer
+- Git
+- GitHub
+
+---
+
+# Struktur MVC
+
+Project menerapkan konsep MVC (Model-View-Controller):
+
+Model
+
+- Buku.php
+
+Controller
+
+- BukuController.php
+
+View
+
+- index.blade.php
+- create.blade.php
+- edit.blade.php
+
+Routing
+
+- routes/web.php
+
+---
+
+# Cara Menjalankan Project
+
+## 1. Clone Repository
+
+```bash
+git clone https://github.com/USERNAME/UK_Pemrograman.git
 ```
-NIM_NamaLengkap
+
+## 2. Masuk ke Folder Project
+
+```bash
+cd UK_Pemrograman
 ```
-5. Simpan seluruh source code dan dokumentasi pada folder tersebut.
-6. Buat file **README.md** yang berisi panduan lengkap hingga aplikasi dapat dijalankan dan melakukan operasi **CRUD** menggunakan database.
-7. Sertakan prompt AI yang digunakan pada bagian akhir README.md.
-8. Lakukan commit secara berkala (minimal **10 commit**).
-9. Push branch ke repository dan buat **Pull Request** ke branch `main`.
-10. Pengumpulan dianggap selesai setelah **Pull Request** berhasil dibuat sebelum batas waktu yang ditentukan.
+
+## 3. Install Dependency
+
+```bash
+composer install
+```
+
+## 4. Copy File Environment
+
+```bash
+cp .env.example .env
+```
+
+atau pada Windows:
+
+```bash
+copy .env.example .env
+```
+
+---
+
+## 5. Generate Application Key
+
+```bash
+php artisan key:generate
+```
+
+---
+
+## 6. Konfigurasi Database
+
+Edit file `.env`
+
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=crud_buku
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+---
+
+## 7. Jalankan Migration
+
+```bash
+php artisan migrate
+```
+
+---
+
+## 8. Menjalankan Project
+
+```bash
+php artisan serve
+```
+
+Kemudian buka browser:
+
+```
+http://127.0.0.1:8000/bukus
+```
+
+---
+
+# Pengujian CRUD
+
+Aplikasi telah berhasil diuji dengan skenario berikut:
+
+- Menampilkan data buku
+- Menambahkan data buku
+- Mengubah data buku
+- Menghapus data buku
+
+Semua fitur berjalan dengan baik.
+
+---
+
+# Screenshot
+
+Tambahkan screenshot berikut pada dokumentasi:
+
+- Halaman Daftar Buku
+- Halaman Tambah Buku
+- Halaman Edit Buku
+- Data berhasil ditambahkan
+- Data berhasil diubah
+- Data berhasil dihapus
+
+---
+
+# Prompt AI
+
+Berikut contoh prompt yang digunakan selama proses pengembangan aplikasi:
+
+> Bertindaklah sebagai Senior Software Engineer dan Dosen Senior Laravel. Bimbing saya membuat aplikasi CRUD Buku menggunakan Laravel dengan konsep MVC secara bertahap mulai dari konfigurasi project, database, migration, model, controller, routing, view, hingga CRUD lengkap. Jelaskan setiap langkah, alasan penggunaan kode, serta best practice Laravel.
+
+AI yang digunakan:
+
+- ChatGPT
+
+---
+
+# Author
+
+Nama : Muhammad Farhan
+
+Repository dibuat sebagai tugas Ujian Khusus Pemrograman Website.
