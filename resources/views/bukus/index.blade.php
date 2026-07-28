@@ -21,15 +21,16 @@
         </div>
     @endif
 
-    <table class="table table-bordered">
+    <table class="table table-bordered table-striped">
 
-        <thead>
+        <thead class="table-dark">
             <tr>
                 <th>No</th>
                 <th>Judul</th>
                 <th>Penulis</th>
                 <th>Penerbit</th>
                 <th>Tahun</th>
+                <th width="180">Aksi</th>
             </tr>
         </thead>
 
@@ -43,12 +44,20 @@
                 <td>{{ $buku->penulis }}</td>
                 <td>{{ $buku->penerbit }}</td>
                 <td>{{ $buku->tahun_terbit }}</td>
+
+                <td>
+                    <a href="{{ route('bukus.edit', $buku->id) }}"
+                       class="btn btn-warning btn-sm">
+                        Edit
+                    </a>
+                </td>
+
             </tr>
 
         @empty
 
             <tr>
-                <td colspan="5" class="text-center">
+                <td colspan="6" class="text-center">
                     Belum ada data buku.
                 </td>
             </tr>
