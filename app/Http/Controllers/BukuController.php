@@ -22,16 +22,26 @@ class BukuController extends Controller
      */
     public function create()
     {
-        //
+        return view('bukus.create');
     }
 
     /**
      * Store a newly created resource in storage.
      */
     public function store(Request $request)
-    {
-        //
-    }
+{
+    $request->validate([
+        'judul' => 'required',
+        'penulis' => 'required',
+        'penerbit' => 'required',
+        'tahun_terbit' => 'required|digits:4',
+    ]);
+
+    Buku::create($request->all());
+
+    return redirect()->route('bukus.index')
+        ->with('success', 'Data buku berhasil ditambahkan.');
+}
 
     /**
      * Display the specified resource.
