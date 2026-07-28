@@ -1,156 +1,192 @@
 # UK_Pemrograman
 Soal untuk Ujian Khusus Mahasiswa Pemrograman 1
 
-# 💻 Ujian Khusus Praktikum Pemrograman Website
-## Deskripsi
-Ujian Khusus Praktikum ini bertujuan untuk mengimplementasikan konsep **Model-View-Controller (MVC)** dalam pengembangan aplikasi web menggunakan **PHP Native**.
-Setiap mahasiswa wajib memilih **salah satu** studi kasus di bawah ini, kemudian mengembangkan aplikasi menggunakan arsitektur MVC.
+# 💻 Tugas Besar Pemrograman Website
+## Membuat Modul Praktikum Berbasis AI Menggunakan Laravel atau CodeIgniter 4
+## Deskripsi Tugas
+Pada tugas ini, setiap mahasiswa diwajibkan menyusun **modul praktikum** yang menjelaskan langkah demi langkah pembangunan sebuah aplikasi web menggunakan bantuan **Artificial Intelligence (AI)**, seperti ChatGPT, GitHub Copilot, Gemini, Claude, atau AI Assistant lainnya.
+Modul harus disusun sedemikian rupa sehingga **mahasiswa lain yang belum pernah membuat aplikasi tersebut dapat mengikuti panduan hingga aplikasi selesai dijalankan**.
+Aplikasi yang dibuat wajib menerapkan konsep **Model-View-Controller (MVC)** menggunakan **Laravel** atau **CodeIgniter 4**.
 
-# 📋 Pilihan Soal
-## Soal 1 - Sistem Manajemen Inventaris Barang
-### Studi Kasus
-Sebuah toko elektronik ingin memiliki aplikasi sederhana untuk mengelola data inventaris barang. Admin dapat menambahkan, mengubah, menghapus, dan mencari data barang.
 
-### Fitur Wajib
+# Tujuan Pembelajaran
+Mahasiswa mampu:
+- Memanfaatkan AI sebagai coding assistant secara bertanggung jawab.
+- Mengembangkan aplikasi berbasis MVC menggunakan Laravel atau CodeIgniter 4.
+- Menyusun dokumentasi teknis dalam bentuk modul praktikum.
+- Menggunakan Git dan GitHub sebagai media version control.
+- Menjelaskan proses pengembangan aplikasi secara sistematis.
+
+# Studi Kasus
+Pilih **salah satu** studi kasus berikut.
+
+## Pilihan 1
+Sistem Inventaris Barang
+
+## Pilihan 2
+Sistem Manajemen Perpustakaan
+
+## Pilihan 3
+Sistem Reservasi Ruangan
+## Pilihan 4
+Sistem Pendataan Mahasiswa
+
+## Pilihan 5
+Studi kasus lain (harus mendapat persetujuan dosen)
+
+
+# Persyaratan Aplikasi
+Aplikasi minimal memiliki:
 - Dashboard
-- Login (opsional nilai tambah)
-- Data Barang
-- Tambah Barang
-- Edit Barang
-- Hapus Barang
-- Detail Barang
-- Pencarian Barang
-- Statistik jumlah barang
-
-### Data Barang
-- Kode Barang
-- Nama Barang
-- Kategori
-- Harga
-- Stok
-- Supplier
-
-### Implementasi MVC
-**Model**
-- Mengelola proses CRUD data barang ke database.
-
-**View**
-- Menampilkan halaman Dashboard.
-- Halaman Data Barang.
-- Form Tambah.
-- Form Edit.
-- Detail Barang.
-
-**Controller**
-- Mengatur alur proses CRUD.
-- Validasi input.
-- Menghubungkan Model dengan View.
-
-## Soal 2 - Sistem Manajemen Peminjaman Ruangan
-### Studi Kasus
-Sebuah kampus ingin memiliki aplikasi sederhana untuk mengelola peminjaman ruang kelas, laboratorium, dan ruang rapat.
-
-### Fitur Wajib
-- Dashboard
-- Data Ruangan
-- Data Peminjaman
-- Tambah Peminjaman
-- Edit Peminjaman
-- Hapus Peminjaman
-- Riwayat Peminjaman
+- Login (opsional)
+- CRUD lengkap
+- Database MySQL/MariaDB
+- Validasi Form
 - Pencarian Data
+- Responsive Design
+- Menggunakan konsep MVC
+- Koneksi database berhasil
+- Data dapat disimpan, diubah, dihapus, dan ditampilkan
 
-### Data Peminjaman
-- Nama Peminjam
-- NIM / NIP
-- Nama Ruangan
-- Tanggal
-- Jam Mulai
-- Jam Selesai
-- Keperluan
+# Modul Praktikum yang Wajib Dibuat
+Mahasiswa **tidak hanya membuat aplikasi**, tetapi juga membuat **panduan praktikum** pada file **README.md**.
+README.md harus berisi langkah-langkah lengkap mulai dari nol hingga aplikasi dapat dijalankan.
+Minimal memuat:
+## 1. Cover
+- Judul Modul
+- Nama
+- NIM
+- Kelas
+- Framework yang digunakan
 
-### Implementasi MVC
-**Model**
-- CRUD Data Ruangan
-- CRUD Data Peminjaman
+## 2. Deskripsi Aplikasi
+Menjelaskan tujuan aplikasi dan studi kasus yang dipilih.
 
-**View**
-- Dashboard
-- Data Ruangan
-- Data Peminjaman
-- Form Tambah
-- Form Edit
-- Detail
 
-**Controller**
-- Mengatur seluruh request.
-- Validasi data.
-- Menghubungkan Model dan View.
+## 3. Tools yang Digunakan
 
-# 🛠 Teknologi
-Wajib menggunakan
-- PHP Native
-- HTML5
-- CSS3
-- JavaScript
-- MySQL / MariaDB
+Contoh:
 
-Boleh menggunakan
-- Bootstrap
-- Bootstrap Icons
-- Font Awesome
-- Google Fonts
-
-Tidak diperbolehkan menggunakan
-- Laravel
-- CodeIgniter
-- Symfony
-- React
-- Vue
-- Angular
-- Framework backend/frontend lainnya
-
-# 📂 Struktur Project (MVC)
-Project wajib menggunakan struktur MVC berikut.
-
-```
-project/
-│
-├── app/
-│   ├── controllers/
-│   ├── models/
-│   └── views/
-│
-├── config/
-│
-├── public/
-│   ├── css/
-│   ├── js/
-│   ├── images/
-│   └── index.php
-│
-├── routes/
-│
-└── README.md
-```
-
-Mahasiswa diperbolehkan menambahkan folder lain sesuai kebutuhan, namun struktur MVC harus tetap dipertahankan.
+- PHP
+- Composer
+- Laravel / CodeIgniter 4
+- MySQL
+- Laragon / XAMPP
+- Visual Studio Code
+- Git
+- GitHub
+- AI Assistant (ChatGPT/GitHub Copilot/Gemini/dll.)
 
 ---
 
-# 📝 Petunjuk Pengerjaan
-1. Tugas dikerjakan **secara individu**.
-2. Clone repository GitHub yang telah dibagikan oleh dosen.
-3. Buat branch baru dengan format:
+## 4. Instalasi
 
-```
-feature-NIM
-```
-Contoh
-```
-feature-23110001
-```
-4. Buat folder project dengan format
+Jelaskan langkah demi langkah.
+
+Contoh:
+
+- Install Composer
+- Install Laravel / CI4
+- Membuat Project
+- Menjalankan Project
+- Struktur Folder
+
+---
+
+## 5. Konfigurasi Database
+
+Berisi:
+
+- Membuat database
+- Konfigurasi file `.env`
+- Konfigurasi koneksi database
+- Pengujian koneksi
+
+---
+
+## 6. Membuat Migration
+
+Jelaskan seluruh langkah pembuatan migration beserta penjelasannya.
+
+---
+
+## 7. Menjalankan Migration
+
+Jelaskan perintah yang digunakan beserta hasilnya.
+
+---
+
+## 8. Membuat Model
+
+Jelaskan fungsi Model.
+
+---
+
+## 9. Membuat Controller
+
+Jelaskan fungsi Controller.
+
+---
+
+## 10. Membuat View
+
+Jelaskan seluruh View yang dibuat.
+
+---
+
+## 11. Membuat Routing
+
+Jelaskan routing yang digunakan.
+
+---
+
+## 12. Membuat CRUD
+
+Jelaskan langkah-langkah:
+
+- Create
+- Read
+- Update
+- Delete
+
+---
+
+## 13. Validasi Form
+
+Jelaskan validasi yang diterapkan.
+
+---
+
+## 14. Pengujian
+
+Berikan screenshot hasil:
+
+- Dashboard
+- Data
+- Tambah
+- Edit
+- Delete
+- Database
+- Tampilan Responsive
+
+---
+
+## 15. Prompt AI
+
+Tuliskan seluruh prompt AI yang digunakan selama proses pengembangan beserta penjelasan singkat mengenai hasil yang diperoleh.
+
+---
+
+## 16. Kesimpulan
+
+Jelaskan pengalaman menggunakan AI dalam membantu pengembangan aplikasi.
+
+---
+
+# Repository
+
+Setiap mahasiswa membuat folder project dengan format
+
 ```
 NIM_NamaLengkap
 ```
@@ -161,80 +197,64 @@ Contoh
 23110001_BudiSantoso
 ```
 
-5. Seluruh source code aplikasi diletakkan pada folder tersebut.
-
-6. Terapkan arsitektur **Model-View-Controller (MVC)** secara konsisten.
-
-7. Lakukan commit secara berkala.
-
-Minimal **10 commit**.
-
-Contoh commit
+Di dalam folder tersebut minimal terdapat:
 
 ```
-Initial Project
-Create MVC Structure
-Add Database Connection
-Create Product Model
-Create Product Controller
-Create Product View
-Add CRUD Feature
-Add Search Feature
-Improve UI
-Update README
+23110001_BudiSantoso/
+│
+├── source-code/
+│
+├── database/
+│
+│   └── database.sql
+│
+├── screenshots/
+│
+├── README.md
+│
+└── docs/
 ```
-8. Push branch ke repository.
-9. Buat Pull Request menuju branch **main**.
-Format judul Pull Request
-
-```
-[NIM] Nama Mahasiswa - Ujian Khusus Praktikum MVC
-```
-
-10. Deskripsi Pull Request minimal berisi
-- Nama
-- NIM
-- Judul Aplikasi
-- Studi Kasus
-- Struktur MVC yang digunakan
-- Fitur yang telah selesai dibuat
 
 ---
 
-# 📄 README.md pada Folder Project
-Setiap mahasiswa wajib membuat README.md yang berisi
-- Nama
-- NIM
-- Kelas
-- Judul Aplikasi
-- Studi Kasus
-- Deskripsi Sistem
-- Diagram Struktur MVC
-- Struktur Folder
-- Screenshot Dashboard
-- Screenshot CRUD
-- Screenshot Database
-- Teknologi yang digunakan
-- Link Deploy (jika ada)
+# Pengumpulan
+
+1. Clone repository yang telah dibagikan dosen.
+2. Buat branch:
+
+```
+feature-NIM
+```
+
+3. Kerjakan project.
+4. Commit secara berkala (minimal 10 commit).
+5. Push ke branch masing-masing.
+6. Buat Pull Request ke branch `main`.
+
 ---
 
-# 📊 Kriteria Penilaian
+# Kriteria Penilaian
+
 | Aspek | Bobot |
 |-------|------:|
-| Implementasi MVC | 25% |
-| Fungsionalitas CRUD | 25% |
-| Desain Database | 10% |
-| UI/UX & Responsive | 15% |
-| Dokumentasi README | 10% |
-| Git Commit & Pull Request | 15% |
+| Kelengkapan Modul Praktikum | 35% |
+| Implementasi MVC | 20% |
+| CRUD & Database | 20% |
+| Dokumentasi README.md | 10% |
+| Git Commit & Pull Request | 10% |
+| Kualitas Prompt AI | 5% |
 
 ---
 
-# ⚠️ Ketentuan Tambahan
-- Wajib menggunakan konsep MVC.
-- Dilarang menggunakan framework PHP seperti Laravel atau CodeIgniter.
-- Dilarang melakukan push langsung ke branch `main`.
-- Wajib membuat Pull Request.
+# Ketentuan Tambahan
+
+- Tugas dikerjakan secara individu.
+- Wajib menggunakan Laravel atau CodeIgniter 4.
+- Wajib menggunakan AI sebagai coding assistant.
+- Wajib mencantumkan prompt AI yang digunakan pada README.md.
 - Source code harus dapat dijalankan tanpa error.
-- Setiap mahasiswa bertanggung jawab atas keaslian hasil pekerjaannya.
+- Database harus dapat diimpor dan aplikasi harus dapat melakukan operasi CRUD.
+- Pengumpulan hanya melalui Pull Request ke repository GitHub yang telah disediakan.
 ````
+
+Menurut saya, model tugas ini lebih relevan dengan kondisi saat ini. Mahasiswa tidak hanya menghasilkan aplikasi, tetapi juga **belajar membuat dokumentasi teknis yang dapat direplikasi**, menggunakan **AI secara bertanggung jawab** (prompt dicantumkan), serta mempraktikkan workflow pengembangan modern menggunakan **Git, GitHub, Laravel/CodeIgniter, MySQL, dan konsep MVC**. Ini juga memudahkan Anda menilai apakah mereka benar-benar memahami proses, bukan sekadar menyalin kode hasil AI.
