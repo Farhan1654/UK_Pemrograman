@@ -152,16 +152,59 @@ Semua fitur berjalan dengan baik.
 
 # Screenshot
 
-Tambahkan screenshot berikut pada dokumentasi:
+# Dokumentasi dan Screenshot
 
-- Halaman Daftar Buku
-- Halaman Tambah Buku
-- Halaman Edit Buku
-- Data berhasil ditambahkan
-- Data berhasil diubah
-- Data berhasil dihapus
+## 1. Halaman Dashboard
+
+Halaman utama aplikasi CRUD Buku setelah berhasil dijalankan menggunakan Laravel.
+
+![Dashboard](docs/screenshots/Dashboard.png)
 
 ---
+
+## 2. Halaman Daftar Buku
+
+Halaman ini menampilkan seluruh data buku yang tersimpan pada database. Pengguna dapat menambah, mengubah, maupun menghapus data buku.
+
+![Daftar Buku](docs/screenshots/daftar Buku.png)
+
+---
+
+## 3. Form Tambah Buku
+
+Halaman ini digunakan untuk menambahkan data buku baru ke dalam database.
+
+![Form Tambah Buku](docs/screenshots/Form Tambah Buku.png)
+
+---
+
+## 4. Form Edit Buku
+
+Halaman ini digunakan untuk memperbarui data buku yang telah tersimpan.
+
+![Edit Buku](docs/screenshots/Edit Buku.png)
+
+---
+
+## 5. Konfirmasi Hapus Buku
+
+Sebelum data dihapus, sistem menampilkan dialog konfirmasi agar pengguna tidak menghapus data secara tidak sengaja.
+
+![Alert Hapus Buku](docs/screenshots/Alert Hapus Buku.png)
+
+---
+
+## 6. Daftar Routing Laravel
+
+Berikut merupakan daftar route yang dihasilkan menggunakan perintah:
+
+```bash
+php artisan route:list
+```
+
+Route tersebut menunjukkan implementasi Resource Controller untuk operasi CRUD.
+
+![Route List](docs/screenshots/route-list.png)
 
 # Prompt AI
 
