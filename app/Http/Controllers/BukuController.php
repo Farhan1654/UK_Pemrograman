@@ -86,6 +86,11 @@ class BukuController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        $buku = Buku::findOrFail($id);
+
+        $buku->delete();
+
+        return redirect()->route('bukus.index')
+            ->with('success', 'Data buku berhasil dihapus');
     }
 }
